@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Moneybaba 2.0</string>
+    <string name="ADMOB_APP_ID">ca-app-pub-2702096336547459~1965480687</string>
+    <string name="admob_interstitial_id">ca-app-pub-2702096336547459/6133926029</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2702096336547459/9329390410</string>
+    <string name="about1">In case you have any queries please feel free to get in touch with us.</string>
+    <string name="ip">If you are the lucky one,money will be transfered to your paytm account.</string>
+    <string name="about">Moneybaba 2.0 is the latest edition of Moneybaba series App.Here,users have a chance to win paytm cash by answering to quizz ques.Each day some lucky winners will win paytm cash</string>
+</resources>

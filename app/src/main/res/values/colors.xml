@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#737373</color>
+    <color name="c1">#ff1a1a</color>
+    <color name="c2">#00e600</color>
+    <color name="c3">#66a3ff</color>
+    <color name="c4">#4d4dff</color>
+    <color name="bgBottomNavigation">#262626</color>
+    <color name="semiTransparentColor">#20ffffff</color>
+    <color name="tt"> #f2f2f2</color>
+    <color name="pp">#d9d9d9</color>
+    <color name="c8">#737373</color>
+    <color name="c9">#0d0d0d</color>
+    <color name="darkblue">#3023AE</color>
+
+    <color name="purple">#c86dd7</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="lightpurple">#ffc042</color>
+
+    <color name="red">#fa2323</color>
+</resources>

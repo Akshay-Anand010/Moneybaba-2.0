@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "395240311934",
+    "firebase_url": "https://inern-a2bba.firebaseio.com",
+    "project_id": "inern-a2bba",
+    "storage_bucket": "inern-a2bba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395240311934:android:65fb62519ce8479ed85c2f",
+        "android_client_info": {
+          "package_name": "com.wordpress.techbeatsweb.inern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395240311934-81eqql9rq7pt7pcf8l6cpnsaur12jb4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wordpress.techbeatsweb.inern",
+            "certificate_hash": "a9291d854abf5ae0e5a12ab85d91d0cf4c6190c2"
+          }
+        },
+        {
+          "client_id": "395240311934-s2c7t0gg9pujmouf9rvu27tin372k22f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2n1h5_iY17ObC3vPIuPkJhP8vSb_bWWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395240311934-s2c7t0gg9pujmouf9rvu27tin372k22f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

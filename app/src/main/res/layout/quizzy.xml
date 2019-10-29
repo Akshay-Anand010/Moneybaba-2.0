@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="3dp"
+    android:orientation="vertical"
+    android:background="@color/c9">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3e3e28">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:textSize="25sp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/score_text"
+            android:textColor="#ffffff"
+            android:fontFamily="Roboto bold"
+            android:textStyle="normal|bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="Roboto bold"
+            android:textStyle="normal|bold"/>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/CustomProgressBar"
+            android:layout_margin="5dip"
+            android:layout_below="@+id/score"/>
+
+    </RelativeLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="40dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Which thing is alive?"
+        android:textSize="20sp"
+        android:padding="3dp"
+        android:layout_marginBottom="45dp"
+        android:id="@+id/question"
+        android:textColor="#FFFFFF"
+        android:fontFamily="Roboto bold"
+        android:textStyle="normal|bold"/>
+
+</ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bird"
+        android:background="@drawable/b2"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/choice1"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="door"
+        android:background="@drawable/b2"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/choice2"
+
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rock"
+        android:background="@drawable/b2"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/choice3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rock"
+        android:background="@drawable/b2"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/choice4"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="quit"
+        android:background="#B71C1C"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="25sp"
+        android:id="@+id/quit"
+        android:textStyle="normal|bold"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+
+</LinearLayout>

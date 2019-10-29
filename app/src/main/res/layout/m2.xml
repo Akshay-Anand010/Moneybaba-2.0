@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d1"
+    >
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Portal"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="Enter your Name"
+            android:id="@+id/ediname"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:paddingBottom="10px"
+            android:paddingTop="10px"
+            android:layout_marginBottom="10px"
+            android:textColorHint="#fff"
+            android:background="#ffcc66"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+           android:hint="Enter your city"
+            android:id="@+id/city"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:paddingBottom="10px"
+            android:paddingTop="10px"
+            android:layout_marginBottom="10px"
+            android:textColorHint="#fff"
+            android:background="#ffcc66"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="Enter your email"
+            android:id="@+id/editemail"
+            android:textAlignment="center"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="10px"
+            android:paddingTop="10px"
+            android:layout_marginBottom="10px"
+            android:textColorHint="#fff"
+            android:background="#ffcc66"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:paddingTop="10px"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="Enter your age"
+            android:id="@+id/editpassword"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:paddingBottom="10px"
+            android:textColorHint="#fff"
+            android:background="#ffcc66"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:background="@color/c1"
+            android:textColor="#fff"
+            android:textSize="35px"
+            />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registered students"
+            android:textSize="35px"
+            android:id="@+id/btn1"
+            android:layout_marginTop="20dp"
+            android:background="@color/c2"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
